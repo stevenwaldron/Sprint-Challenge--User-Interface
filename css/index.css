@@ -52,8 +52,11 @@ table {
 }
 
 html, body {
+    display: flex;
+    justify-content: space-evenly;
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -127,8 +130,9 @@ p {
 }
 
 footer {
-    width: 100%;
+    width: 55%;
     background: black;
+    margin-left: 300px
 }
 
 footer nav {
@@ -143,4 +147,170 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+ .top-top2 {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    margin-top: 50px;
+    
+}
+#nav {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    margin-left: 20px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+#header-img {
+    margin: 20px;
+}
+
+.top-top {
+
+}
+
+ .tm {
+    display:flex;
+    margin: 20px;
+    margin-right: 100px;
+
+}
+
+ .mm {
+    display:flex;
+    margin: 20px;
+
+}
+
+#collab, #pww, #hww, #strategy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+    
+}
+
+#strategy, #pww {
+    margin-left: 300px;
+    width: 340px;
+}
+
+#hww, #collab {
+    margin-right: 200px;
+    width: 340px;
+}
+
+.button {
+    width: 100px;
+    font-size: 15px;
+    margin-top: 20px;
+    border-color: black;
+    background: white;
+    border-radius: 6px;
+}
+
+.imgs {
+    margin-bottom: 20px;
+}
+
+hr {
+    border-top: 1px dashed;
+    margin-top:20px;
+}
+
+#about-header-img {
+    margin: 20px;
+    margin-top: 50px;
+}
+
+#abt {
+    margin-left: 20px;
+    
+}
+
+.bottom {
+    
+}
+
+#lwt {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    width: 730px;
+    margin-left: 310px;
+    line-height: 20px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    width: 500px;
+    margin-left: 300px;
+}
+
+#toplogo {
+    display: flex;
+    align-content: flex-end;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.footer2 {
+    width: 80%;
+    background: black;
+    margin-left: 300px
+    margin-right: 250px;
+}
+
+.footer3 {
+    width: 100%;
+    background: black;
+    margin-left: 5px;
+
+}
+
+#a {
+    background: teal;
+}
+
+#b {
+    background: gold;
+}
+
+#c {
+    background: cadetblue;
+}
+
+#d {
+    background: coral;
+}
+
+#e {
+    background: crimson;
+}
+
+#f {
+    background: forestgreen;
+}
+
+#g {
+    background: darkorchid;
+}
+
+#h {
+    background: hotpink;
+}
+
+#i {
+    background: indigo;
+}
+
+#j {
+    background: dodgerblue;
 }
