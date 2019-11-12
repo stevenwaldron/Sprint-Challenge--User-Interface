@@ -21,7 +21,9 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    text-decoration: none;
+    color: black;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -159,10 +161,10 @@ footer nav a {
 #nav {
     display: flex;
     justify-content: space-around;
-    color: black;
-    margin-left: 20px;
-    margin-top: 50px;
     text-decoration: none;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 70px;
 }
 
 #header-img {
@@ -170,6 +172,8 @@ footer nav a {
 }
 
 .top-top {
+    display: flex;
+    
 
 }
 
@@ -248,11 +252,14 @@ hr {
 
 #navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-decoration: none;
     width: 500px;
-    margin-left: 300px;
+    margin-left: 50px;
+    margin-top: 45px;
+    
 }
+
 
 #toplogo {
     display: flex;
@@ -274,6 +281,14 @@ hr {
     margin-left: 5px;
 
 }
+
+#logonav {
+    display: flex;
+
+}
+
+
+
 
 #a {
     background: teal;
